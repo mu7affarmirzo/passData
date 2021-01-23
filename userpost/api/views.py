@@ -9,6 +9,8 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 
 from userpost.models import PassportDataModel
 from userpost.api.serializers import PassportPostSerializer
+# from userpost.api.detect import pathpass, getData
+
 
 @api_view(['POST',])
 # @permission_classes((IsAuthenticated,))
@@ -23,7 +25,10 @@ def api_post_img_view(request):
         if serializer.is_valid():
             serializer.save()
             x = serializer.data
+            pathpass(x)
+            # myData = getData(self)
 
-            # print(x['pass_img'])
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+            print(x['pass_img'])
+
+            return Response(myData, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
