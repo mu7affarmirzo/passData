@@ -11,7 +11,7 @@ from django.conf import settings
 
 from userpost.models import PassportDataModel
 from userpost.api.serializers import PassportPostSerializer
-from media_cdn.static.detectall.detect import getData, pathpass
+from media_cdn.static.detectall.detect import callMy
 
 
 @api_view(['POST',])
@@ -28,7 +28,7 @@ def api_post_img_view(request):
         if serializer.is_valid():
             serializer.save()
             x = serializer.data
-            myData = getData()
+            myData = callMy()
             y = {
                 "id": 18,
                 "pass_img": "/media/passportsrc/0293c7f2fe0e4c66a87ba56fbb9f7c1b.jpg",

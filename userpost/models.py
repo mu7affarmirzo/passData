@@ -23,6 +23,7 @@ class PassportDataModel(models.Model):
 		verbose_name_plural = "Passport danniylar"
 
 	pass_img = models.ImageField(upload_to=upload_location, null=True, blank=True)
+	slug = models.SlugField(blank=True, unique=True)
 
 	# def location_f(self):
 	# 	loc = self.pass_img.url
@@ -30,3 +31,13 @@ class PassportDataModel(models.Model):
 
 	def __str__(self):
 		return str(self.pass_img)
+
+@receiver(post_delete, sender=PassportDataModel)
+def submission_delete(sender, instance, **kwargs):
+	instance.pass_img.delete(False)
+
+def pre_save_blog_post_receiver(sender, instance, *args, **kwargs):
+	if not instance.slug:
+		instance.slug = slugify(str(r.randint(1,10000)) + "-" + str(instance.pass_img))
+
+pre_save.connect(pre_save_blog_post_receiver, sender=PassportDataModel)
