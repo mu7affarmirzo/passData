@@ -12,7 +12,7 @@ import random as r
 
 def upload_location(instance, filename):
 	ext = filename.split('.')[-1]
-	file_path = 'passportsrc/{filename}'.format( 
+	file_path = 'static/detectall/imgs/{filename}'.format(
 		filename='{}.{}'.format(uuid4().hex, ext)
 	)
 	return file_path
@@ -24,7 +24,9 @@ class PassportDataModel(models.Model):
 
 	pass_img = models.ImageField(upload_to=upload_location, null=True, blank=True)
 
-
+	# def location_f(self):
+	# 	loc = self.pass_img.url
+	# 	return loc
 
 	def __str__(self):
 		return str(self.pass_img)

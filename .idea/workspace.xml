@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cfc2ad9-15e1-4f0d-8114-f71f48b4967f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PassportData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PassportData.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/00520c19c65b4564898b000904c542ea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/0ea6a89b8fe348969ca0088ed6e7ee9b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/1c052638013b4949b3ec5ba026635462.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/3de37d0dc3e84acea7a85af210c0783b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/6de2299a14d143768b91164d7e784609.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/75c139d767d7460fb46a5cefd3c55d8d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/a634542afbb340cfbcb11175073e6f3a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/dc9650d14a804d49b14f25f23731748f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/e080ed83245c4e99b55e3ecb039d0282.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_cdn/passportsrc/f662d019b1a748da8a217604e58d7b9a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userpost/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userpost/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/DataOutput2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DataOutput2.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/text_detect1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/text_detect1.py" afterDir="false" />
     </list>
@@ -132,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611400478140</updated>
-      <workItem from="1611400479277" duration="7716000" />
+      <workItem from="1611400479277" duration="9607000" />
     </task>
     <servers />
   </component>
